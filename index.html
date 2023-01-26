@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html>
-  
 <head>
-    <title>full screen iframe</title>
-    <style type="text/css">
-        html {
-            overflow: auto;
-        }
-          
-        html,
-        body,
-        div,
-        iframe {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            border: none;
-        }
-          
-        iframe {
-            display: block;
-            width: 100%;
-            border: none;
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 </head>
-  
 <body>
-    <iframe src="https://login.majorconstruction.site/BihPgfFb"
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0" 
-            width="100%" 
-            height="100%" 
-            scrolling="auto">
-  </iframe>
-  
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="intranet.majorconstructions.live/login">Login</a>
+  <a href="intranet.majorconstructions.live/notice">Notices</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Intranet</h2>
+  <p>This content is for interal employees.</p>
+</div>
+
 </body>
-  
 </html>
